@@ -3,7 +3,7 @@ name: CI-RSS
 on:
   push:
   schedule:
-  - cron: "* */2 * * *"
+  - cron: "* */4 * * *"
 
 jobs:
   build:
