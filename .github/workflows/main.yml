@@ -1,6 +1,7 @@
 name: CI-rss
 
 on:
+  push:
   schedule:
   - cron: "*/1 * * * *"
 
