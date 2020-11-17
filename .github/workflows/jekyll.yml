@@ -8,6 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+
     - name: running curl
       run: curl https://1481505583477372.cn-hongkong.fc.aliyuncs.com/2016-08-15/proxy/hk-rss/hk-rss/list
